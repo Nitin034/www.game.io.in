@@ -1,0 +1,211 @@
+@import 'https://fonts.googleapis.com/css?family=Press+Start+2P';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("./image/backsupar.png")no-repeat;
+    background-size: cover;
+    background-position: center;
+     
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    background: #6b65657c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+
+}
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color:  #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+
+}
+
+
+.navigation .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff ;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.navigation .btnLogin-popup:hover{
+    background: #fff;
+    color: #162938;
+}
+.flex-container{
+    display: flex;
+    margin: 20px;
+    margin-top: 90px;
+    height:750px;
+   flex-flow: column wrap;          
+   align-content: flex-start;
+    
+}
+.flex-container2{
+    display: flex;
+    margin: 35px;
+    margin-top: 90px;
+    height:750px;
+   flex-flow: column wrap;          
+   align-content: flex-end;
+   
+}
+.titel{
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    background:  rgb(255, 255, 255);
+    border: 5px solid rgb(147, 12, 12);
+    border-radius: 30px 0px 30px 0px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 90px rgb(116, 27, 27);
+    text-align: center;
+    justify-content: center;
+}
+.titel h2{
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 900;
+    color: rgb(100, 23, 23);
+    
+}
+.card {
+    position: relative;
+    margin: 5px;
+    width: 150px;
+    height: 200px;
+    background: transparent;
+    border: 5px solid rgb(41, 12, 147);
+    border-radius: 0px 30px 0px 30px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 90px rgb(27, 49, 116);
+}
+.card h4{
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+}
+.supimg{
+    margin-top: 3px;
+    position: relative;
+    width: 100%;
+    height: 170px;
+    
+     
+}
+.wrapper{
+    position: relative;
+    width: 900px;
+    height: 640px;
+    background: rgba(53, 53, 164, 0.448);
+    border: 2px solid rgb(184, 181, 195);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 90px rgb(193, 197, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px 100px;
+    background: #0335bf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+
+}
+.splogo{
+    width: 60px;
+    height: 40px;
+}
+.navigation2 a {
+    color: #fff;
+}
+.fight-box a {
+     color: #fff;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  tr:nth-child(odd) {
+    background-color: #756ec1;
+  }
+.card2{
+    position: relative;
+    margin: 30px;
+    width: 150px;
+    height: 200px;
+    background: #fff;
+    border: 2px solid rgb(147, 61, 12);
+    border-radius: 0px 30px 0px 30px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 90px rgb(27, 49, 116);
+
+}

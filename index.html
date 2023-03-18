@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./image/1677708664836.png" style="width: 50px; height: 50px; border-radius: 50%; background: #fff;"></img>
+        <nav class="navigation">
+            <a href="/">Home</a>
+            <a href="/">About</a>
+            <a href="/">Rules</a>
+            <a href="/">Services</a>
+            <a href="/">Content</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+    <div class="flex-container"> 
+        <div class="titel">
+            <h2>NSW Bot</h2>
+            <form action="#">
+            </form>
+        </div>
+    <div class="card">
+        <div class="btn-box check"></div>
+        <h4>Iron Man</h4>
+        <img class="supimg" src="./image/ironman.png">
+        <form action="#">
+            <div class="check-box">
+
+            </div>
+        </form>
+    </div>
+    <div class="card">
+        <div class="btn-box check"></div>
+        <h4>Thor</h4>
+        <img class="supimg" src="./image/thor.png.png">
+        <form action="#">
+            <div class="check-box">
+
+            </div>
+        </form>
+    </div>
+    <div class="card">
+        <div class="btn-box check"></div>
+        <h4>Caption America</h4>
+        <img class="supimg" src="./image/Capton.png">
+        <form action="#">
+            <div class="check-box">
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="wrapper">
+        <nav class="navigation2">
+            <button style="padding: 5px;"><strong>NSW Score 03</strong></button>
+            <img class="splogo" src="./image/logo supr.jpg">
+            <button style="padding: 5px;"><strong>Your Score 05</strong></button>
+        </nav>
+    <div class="card2">
+        <div class="btn-box check"></div>
+        <h4 style="background: rgb(255, 0, 0); border-radius: 0px 40px 0px 0px; text-align: center;">NSW Player</h4>
+        <img id="irimgbot" class="supimg" src="./image/logo supr.jpg">
+    </div>
+    <div class="fight-box">
+        <table>
+            <tr>
+              <th>NSW Player</th>
+              <th> Your Player </th>
+              <th>Round</th>
+              <th>Fight Winnar</th>
+            </tr>
+            <tr>
+              <td>Iron Man</td>
+              <td>Caption America</td>
+              <td>One</td>
+              <td>Nsw Bot</td>
+            </tr>
+            <tr>
+              <td>Thor</td>
+              <td>Iron Man </td>
+              <td>Two</td>
+              <td>Nsw Bot</td>
+            </tr>
+            <tr>
+              <td>Iron Man</td>
+              <td>Thor</td>
+              <td>Three</td>
+              <td>You</td>
+            </tr>
+            <tr>
+              <td>Caption America</td>
+              <td>Iron Man</td>
+              <td>Four</td>
+              <td>You</td>
+            </tr>
+            <tr>
+                <td>Iron Man</td>
+              <td>Caption America</td>
+              <td>Five</td>
+              <td>Nsw Bot</td>
+            </tr>
+            <tr>
+                <td>Iron Man</td>
+              <td>Thor</td>
+              <td>Six</td>
+              <td>You</td>
+            </tr>
+            <tr>
+                <td>Iron Man</td>
+              <td>Thor</td>
+              <td>Seven</td>
+              <td>You</td>
+            </tr>
+            <tr>
+                <td>Caption America</td>
+                <td>Iron Man</td>
+                <td>Eight</td>
+                <td>you</td>
+            </tr>
+          </table>
+        <div id="result2" style="color: #fff; padding: 20px;"></div>
+
+    </div>
+    <div class="card2">
+        <div class="btn-box check"></div>
+        <h4 style="background: rgb(255, 0, 0); border-radius: 0px 40px 0px 0px; text-align: center;">Your Player</h4>
+        <img id="irimg" class="supimg" src="./image/logo supr.jpg">
+        
+    </div>
+     
+    <form action="#">
+        <div class="check-box">
+
+        </div>
+    </form>
+</div>
+
+
+
+
+   <div class="flex-container2"> 
+    <div class="titel">
+        <h2>You</h2>
+        <form action="#">
+        </form>
+    </div>
+    <div id="ironman" class="card" onclick="changeImage('./image/ironman.png')" >
+        <div class="btn-box check"></div>
+        <h4>Iron Man</h4>
+        <img class="supimg" src="./image/ironman.png">
+        <form action="#">
+            <div class="check-box">
+
+            </div>
+        </form>
+    </div>
+    <div id="tthor" class="card" onclick="changeImage('./image/thor.png.png')" >
+        <div class="btn-box check"></div>
+        <h4>Thor</h4>
+        <img class="supimg" src="./image/thor.png.png">
+        <form action="#">
+            <div class="check-box">
+
+            </div>
+        </form>
+    </div>
+    <div id="america" class="card"   onclick="changeImage('./image/Capton.png')" >
+        <div class="btn-box check"></div>
+        <h4>Caption America</h4>
+        <img class="supimg" src="./image/Capton.png">
+        <form action="#">
+            <div class="check-box">
+
+            </div>
+        </form>
+    </div>
+</div>
+ 
+     <script src="script.js"></script>
+</body>
+</html>
